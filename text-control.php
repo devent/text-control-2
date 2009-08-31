@@ -3,7 +3,8 @@
 Plugin Name: Text Control
 Plugin URI: http://dev.wp-plugins.org/wiki/TextControl
 Description: Take total control of how your blog formats text: Textile 1+2, Markdown, AutoP, nl2br, SmartyPant, and Texturize. Blog wide, individual posts, and defaults for comments.
-Author: <a href="http://thecodepro.com/">Jeff Minard</a> and <a href="http://bueltge.de">Frank B&uuml;ltge</a>
+Author: Jeff Minard, Frank B&uuml;ltge
+Author URI: http://thecodepro.com/, http://bueltge.de
 Version: 2.2.3
 Date: 03.11.2008 14:03:49
 */ 
