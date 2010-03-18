@@ -3,7 +3,7 @@ Tags: Post, Format, Formatting, Encoding
 Contributors: Bueltge
 Donate link: http://bueltge.de/wunschliste/
 Requires at least: 1.5
-Tested up to: 2.9-rare
+Tested up to: 3.0-alpha
 Stable tag: 1.0
 
 Take complete control of text formatting options on your blog: Formatting and encoding per post, globally on posts, and globally on comments.
@@ -12,7 +12,7 @@ Text Control will allow you to choose from a variety of formatting syntaxes and 
 
 == Installation ==
 = Requirements =
-* WordPress version 1.5 and later (tested at 2.9-rare)
+* WordPress version 1.5 and later
 
 = Installation =
 1. Download
