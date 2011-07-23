@@ -28,10 +28,6 @@ Additionally, you can change the defaults on a blog-wide basis by changing the "
 
 Finally, you can set text processing for all comments as well. Set this up in the "Comments" options in "Your site Admin page >> `Options` >> `Text Control`".
 
-== Frequently Asked Questions ==
-= I love this plugin! How can I show the developer how much I appreciate his work? =
-Please visit [my website](http://bueltge.de/ "bueltge.de") and let him know your care or see the [wishlist](http://bueltge.de/wunschliste/ "Wishlist") of the author or use the donate form.
-
 == Other Notes ==
 * Not really a bug so much, but an issue: Textile 2 is freaking huge (145k > 4000 lines of code) so it can be quite a burden on your server. If you can get away with *not* using it, I highly reccomend you do so.
 
@@ -44,12 +40,18 @@ Good news, this plugin is free for everyone! Since it's released under the GPL, 
 The plugin comes with various translations, please refer to the [WordPress Codex](http://codex.wordpress.org/Installing_WordPress_in_Your_Language "Installing WordPress in Your Language") for more information about activating the translation. If you want to help to translate the plugin to your language, please have a look at the .pot file which contains all defintions and may be used with a [gettext](http://www.gnu.org/software/gettext/) editor like [Poedit](http://www.poedit.net/) (Windows) or plugin for WordPress [Localization](http://wordpress.org/extend/plugins/codestyling-localization/).
 
 == Changelog ==
- * 2.3.0 - Check on WP 3.2*, change different source, remove sql-queries and use WP-functions
- * 2.2.3 - WordPress 2.7 ready, new functions for more comfort
- * 2.2.2 - WP 2.5 ready, new metabox-function etc.
- * 2.0b Name changed from MTSpp to Text Control. Heavy updates!
- * 1.0.1 - Changed a variable so that this would actually work in places like, oh ya know, the index.php file (places where is_single would be false.)
- * 1.0 - Introduction 
+= 2.3.0 =
+* Check on WP 3.2*, change different source, remove sql-queries and use WP-functions
+= 2.2.3 =
+* WordPress 2.7 ready, new functions for more comfort
+= 2.2.2 =
+* WP 2.5 ready, new metabox-function etc.
+= 2.0b =
+* Name changed from MTSpp to Text Control. Heavy updates!
+= 1.0.1 =
+* Changed a variable so that this would actually work in places like, oh ya know, the index.php file (places where s_single would be false.)
+= 1.0 =
+* Introduction 
 
 == Screenshots ==
 1. Options in WP 2.9-rare
