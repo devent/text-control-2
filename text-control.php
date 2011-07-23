@@ -42,7 +42,7 @@ function tc_filter_plugin_actions($links, $file) {
 		$this_plugin = plugin_basename(__FILE__);
 
 	if ( $file == $this_plugin )
-		$links = array_merge( array('<a href="options-general.php?page=text-control/text-control.php">' . __('Settings') . '</a>'), $links); // before other links
+		$links = array_merge( array('<a href="options-general.php?page=text-control-2/text-control.php">' . __('Settings') . '</a>'), $links); // before other links
 	
 	return $links;
 }
