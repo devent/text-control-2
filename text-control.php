@@ -5,8 +5,8 @@ Plugin URI: http://dev.wp-plugins.org/wiki/TextControl
 Description: Take total control of how your blog formats text: Textile 1+2, Markdown, AutoP, nl2br, SmartyPant, and Texturize. Blog wide, individual posts, and defaults for comments.
 Author: Jeff Minard, Frank B&uuml;ltge
 Author URI: http://bueltge.de
-Version: 2.3.0
-Date: 07/22/2011
+Version: 2.3.1
+Date: 10/06/2011
 */ 
 
 // Hey!
@@ -321,6 +321,14 @@ function tc_add_custom_box() {
 			__('Text Control', 'textcontrol'),
 			'tc_inside_the_textcontrol_box',
 			'post',
+			'advanced'
+		);
+		
+		add_meta_box(
+			'textcontroldiv',
+			__('Text Control', 'textcontrol'),
+			'tc_inside_the_textcontrol_box',
+			'page',
 			'advanced'
 		);
 	
