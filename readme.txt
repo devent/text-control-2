@@ -3,12 +3,16 @@ Tags: Post, Format, Formatting, Encoding
 Contributors: Bueltge
 Donate link: http://bueltge.de/wunschliste/
 Requires at least: 1.5
-Tested up to: 3.2.1
+Tested up to: 3.3
 Stable tag: 2.3.1
 
 Take complete control of text formatting options on your blog: Formatting and encoding per post, globally on posts, and globally on comments.
 
 Text Control will allow you to choose from a variety of formatting syntaxes and encoding options. You can choose between Markdown, Textile 1, Textile 2, nl2br, WPautop, and "No Formatting" for formatting along with the choice of SmartyPants, WPTexturize or "No Encoding" for character encodings. 
+
+= Localizations =
+* Thanks to [Frank B&uuml;ltge](http://bueltge.de/ "Frank B&uuml;ltge") for german language file
+* Thanks to [Brian from InMotion Hosting](http://www.inmotionhosting.com/) for spanish translation
 
 == Installation ==
 = Requirements =
