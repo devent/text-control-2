@@ -3,7 +3,7 @@ Tags: Post, Format, Formatting, Encoding
 Contributors: Bueltge
 Donate link: http://bueltge.de/wunschliste/
 Requires at least: 1.5
-Tested up to: 3.3
+Tested up to: 3.4-Beta2
 Stable tag: 2.3.1
 
 Take complete control of text formatting options on your blog: Formatting and encoding per post, globally on posts, and globally on comments.
@@ -13,6 +13,7 @@ Text Control will allow you to choose from a variety of formatting syntaxes and 
 = Localizations =
 * Thanks to [Frank B&uuml;ltge](http://bueltge.de/ "Frank B&uuml;ltge") for german language file
 * Thanks to [Brian Flores](http://www.inmotionhosting.com/) for spanish translation
+* Lithuanian translation files by [Vincent G](http://www.host1plus.com)
 
 == Installation ==
 = Requirements =
