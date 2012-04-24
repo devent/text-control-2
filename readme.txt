@@ -37,6 +37,9 @@ Finally, you can set text processing for all comments as well. Set this up in th
 
 * Additionally, in Textile 2 there is a feature that would grab an image via PHP and get it's height and width for placing in the IMG tags. This has been disabled It literally took a post from 1 second to display straight to 6 seconds -- completely unacceptable. 
 
+= Acknowledgements =
+* Romanian language files, thanks to [Alexander Ovsov](http://webhostinggeeks.com/)
+
 = Licence =
 Good news, this plugin is free for everyone! Since it's released under the GPL, you can use it free of charge on your personal or commercial blog. But if you enjoy this plugin, you can thank me and leave a [small donation](http://bueltge.de/wunschliste/ "Wishliste and Donate") for the time I've spent writing and supporting this plugin. And I really don't want to know how many hours of my life this plugin has already eaten ;)
 
