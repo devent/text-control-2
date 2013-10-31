@@ -3,7 +3,7 @@ Tags: Post, Format, Formatting, Encoding
 Contributors: Bueltge
 Donate link: http://bueltge.de/wunschliste/
 Requires at least: 1.5
-Tested up to: 3.4-Beta2
+Tested up to: 3.7.1
 Stable tag: 2.3.1
 
 Take complete control of text formatting options on your blog: Formatting and encoding per post, globally on posts, and globally on comments.
@@ -40,6 +40,7 @@ Finally, you can set text processing for all comments as well. Set this up in th
 
 = Acknowledgements =
 * Romanian language files, thanks to [Alexander Ovsov](http://webhostinggeeks.com/)
+* Native Serbo-Croatian language files, thanks to [Borisa Djuraskovic](http://www.webhostinghub.com/)
 
 = Licence =
 Good news, this plugin is free for everyone! Since it's released under the GPL, you can use it free of charge on your personal or commercial blog. But if you enjoy this plugin, you can thank me and leave a [small donation](http://bueltge.de/wunschliste/ "Wishliste and Donate") for the time I've spent writing and supporting this plugin. And I really don't want to know how many hours of my life this plugin has already eaten ;)
