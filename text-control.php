@@ -107,6 +107,8 @@ function tc_post_process($text, $do_text = '', $do_char = '') {
 	
 	if ( 'textile2' == $do_text ) {
         $parser = new Textile();
+        $parser->setSymbol('quote_double_open', '"');
+        $parser->setSymbol('quote_double_close', '"');
         $text = $parser->textileThis($text);
 	} else if ( 'textile1' == $do_text ) {
 		require_once('text-control/textile1.php');
