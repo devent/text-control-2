@@ -98,14 +98,14 @@ function tc_comment($text) {
 	return tc_post_process( $text, get_option('tc_comment_format'), get_option('tc_comment_encoding') );
 }
 
+require 'php-textile/src/Netcarver/Textile/Parser.php';
+require 'php-textile/src/Netcarver/Textile/DataBag.php';
+require 'php-textile/src/Netcarver/Textile/Tag.php';
+use Netcarver\Textile\Parser as Textile;
 
 function tc_post_process($text, $do_text = '', $do_char = '') {
 	
 	if ( 'textile2' == $do_text ) {
-        require 'php-textile/src/Netcarver/Textile/Parser.php';
-        require 'php-textile/src/Netcarver/Textile/DataBag.php';
-        require 'php-textile/src/Netcarver/Textile/Tag.php';
-        use Netcarver\Textile\Parser as Textile;
         $parser = new Textile();
         $text = $parser->textileThis($text);
 	} else if ( 'textile1' == $do_text ) {
