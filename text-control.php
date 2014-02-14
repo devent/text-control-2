@@ -102,10 +102,12 @@ function tc_comment($text) {
 function tc_post_process($text, $do_text = '', $do_char = '') {
 	
 	if ( 'textile2' == $do_text ) {
-		require_once('text-control/textile2.php');
-		$t = new Textile();
-		$text = $t -> process($text);
-		
+        require 'php-textile/src/Netcarver/Textile/Parser.php';
+        require 'php-textile/src/Netcarver/Textile/DataBag.php';
+        require 'php-textile/src/Netcarver/Textile/Tag.php';
+        use Netcarver\Textile\Parser as Textile;
+        $parser = new Textile();
+        $text = $parser->textileThis($text);
 	} else if ( 'textile1' == $do_text ) {
 		require_once('text-control/textile1.php');
 		$text = textile($text);
